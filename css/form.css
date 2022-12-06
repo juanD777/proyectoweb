@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 600%;
+}
+ul{
+  display: none;
+}
+.input:checked  ~ ul{
+  display:block;
+}
+.input{
+  display: none;
+}
+.label{
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+.label:hover{
+  background: rgb(199, 54, 34);
+}
+.input:checked ~ label {
+  background: lightgrey; 
+}
+ul{
+  margin-top: 0%;
+  padding: 0;
+  width: 300px;
+}
+li{
+  display: grid;
+  background: whitesmoke;
+  margin: 0%;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid gray;
+}  
+li:hover {
+  filter: brightness(110%);
+}
+div{
+  color: aliceblue;
+}
+nav{
+  margin-left: 55%;
+}
+h1{
+    color: brown;
+    font-family: cursive;
+    text-align: center;
+    font-size: xx-large;
+}
+
+header{
+    background-image: url(https://d1bvpoagx8hqbg.cloudfront.net/originals/my-experience-salamanca-spain-naroa-beb6e8c1dba41f594d13ec9386911869.jpg);
+    height: 500px;
+    margin-top: 0;
+    background-attachment: fixed;
+    display: flex;
+    
+}
+nav{
+    margin-left: 130px;
+   margin-top: 2em;
+}
+nav label:hover{
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav li, nav li a:hover {
+    background: rgb(194, 153, 153);
+    color: #fff;
+}
+h2 {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    color: brown;
+}
+.titles {
+    margin-left: 37%;
+}
+h1, h2, h3:hover{
+    cursor: default;
+}
+
+h3{
+    text-decoration: underline;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+h2 {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    color: brown;
+}
+body {
+    background-image: url(https://th.bing.com/th/id/R.fc686e185926634ef34d0f843d840164?rik=%2bML9egSTt8EHWA&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formbox .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+
+}
+.formbox .form{
+    background: rgba(0,0,0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.formbox .form label p{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.formbox .form input, .formbox .form .form-textarea {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(243, 243, 243);
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#submit{
+    color: #fff;
+    background: #000;
+}
+.btn-submit:hover {
+    cursor: pointer;
+}
